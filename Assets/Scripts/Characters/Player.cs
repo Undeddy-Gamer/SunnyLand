@@ -7,11 +7,16 @@ using UnityEngine;
 public class Player : MonoBehaviour
 {
 
+    [Header("Stat Variables")]
+    public float curHealth = 5f;
+    public float maxHealth = 5f;
     public float jumpHeight = 5f;  // How hight the Charater Jumps (in units)
     public float climbSpeed = 10f; //How fast the Character Climbs
     public float moveSpeed = 10f;  // How fast the Character Moves
     public float portalDistance = 1f;  // How far from the portal for the player to interact
 
+
+    
 
     private CharacterController2D controller;
 
